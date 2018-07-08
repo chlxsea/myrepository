@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>My To-Do List</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<div class="todo-body">
+	<div class="todo-part" align="center">
+
+		<h1 id="todo-head">To-Do List</h1>
+
+		<p id="todo-sub">What are you up to today?</p>
+
+		<form id="todoForm">
+			<input type="text" id="todoInput">
+			<br> <br>
+			<button type="button" id="submit-button" onclick="todoList()" onclick="document.getElementById('todoInput').value=' '">Submit</button>
+		</form>
+	</div>
+
+	<ol id="todoList"></ol>
+</div>
+
+	<script src = "to-do.js"></script>
+
+</body>
+
+</html>
